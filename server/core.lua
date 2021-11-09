@@ -64,7 +64,7 @@ AddEventHandler('onResourceStart', function(resourceName)
 			local name = "[^4nek_delivery^7]"
             Citizen.Wait(2000)
             
-			print(name .." Last Updates \n [\n".. tostring(updates) .."\n]")
+			-- print(name .." Last Updates \n [\n".. tostring(updates) .."\n]")
 		end
 	
 		PerformHttpRequest("https://raw.githubusercontent.com/TtvNekix/deliverychecker/main/version", checkVersion, "GET")
