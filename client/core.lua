@@ -1,7 +1,7 @@
 Delivery = {}
 Delivery.Functions = {}
 
-QBCore = nil
+local QBCore = exports['qb-core']:GetCoreObject()
 
 Citizen.CreateThread(function() 
     while true do
